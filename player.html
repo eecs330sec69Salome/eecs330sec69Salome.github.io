@@ -1,0 +1,49 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+      <!--back button-->
+      <a href="songs.html"><div class="back-button"><i class="material-icons">arrow_back</i></div></a>
+   </div>
+   <div id="player-album-art">
+   <img src="images/currents.jpg" alt="Currents Album Cover"/></div>
+   <div class="player-song-info">
+      <h3 id="player-song-name">Let It Happen</h3>
+      <p><em>Currents</em> - Tame Impala</p>
+   </div>
+   <!--input element should start from range =0 to 180-->
+   <input id="myRange" type="range" value=0 max="180">
+   <div id="start">0:00</div>
+   <div id="stop">3:00</div>
+   <!--buttons that control playback and the current song-->
+   <div class="control-buttons">
+      <button onclick="prevSong()"><i class="material-icons">skip_previous</i></button>
+      <button onclick="switchPlay()"><i class="material-icons" id="play-pause">play_arrow</i></button>
+      <button onclick="nextSong()"><i class="material-icons">skip_next</i></button>
+   </div>
+   <!--six volume levels-->
+   <div id="volume-level">
+      <i class="material-icons">volume_down</i>
+      <div id="vl0"></div>
+      <div id="vl1"></div>
+      <div id="vl2"></div>
+      <div id="vl3"></div>
+      <div id="vl4"></div>
+      <div id="vl5"></div>
+   </div>
+   <button onclick="volDown()" class="vol-down">&mdash;</button>
+   <button onclick="volUp()" class="vol-up">+</button>
+   
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

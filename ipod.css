@@ -1,0 +1,294 @@
+/* 
+	Global classes 
+					*/
+@font-face {
+  font-family: 'Avenir';
+  src: url("fonts/AvenirLTStd-Book.otf"); /* File to be stored at your site */
+  }
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	text-align: center;
+	text-shadow:1.5px 1px #000000;
+	height:45px;
+	width:300px;
+	background-color:#e6ccff;
+	color: white;	
+	padding-top: 5px;
+}
+.head-bar h1
+{
+	margin-top: 1px
+}
+
+/* 
+	Albums 
+			*/
+#albums-album-wrapper{
+	
+	margin-top: 20px;
+	height:465px;
+
+	
+}
+.album_header
+{	
+	display:inline-block;
+	text-align: center;
+	margin-right: 2px;
+	margin-left: 4px;
+	font-family: Avenir, sans-serif;
+	height:232px;
+}
+.album_header img
+{
+	width:140px;
+	height:150px;
+	
+
+
+}
+
+.album_header h3
+{	margin-top: 2px;
+	margin-bottom: 2px;
+	color:black;
+	background-color: transparent;
+
+}
+
+.album_header p
+{
+	font-size: 88%;
+	margin-top: 0px;
+	color:black;
+}
+
+.back-button {
+	height:40px;
+	float:left;
+	margin-left:4px;
+
+}
+a:link {
+    background-color: transparent; 
+    text-decoration: none;
+    color:black;
+}
+
+
+/* 
+	Albums 
+			*/
+
+
+.albums-album-art {
+	
+}
+
+.albums-album-name {
+
+}
+
+.albums-artist-name {
+
+}
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	height:160px;
+	margin-left: 10px;
+	font-family: Avenir, sans-serif;
+}
+
+.songs-info-wrapper img {
+	height:150px;
+	width:140px;
+	float:left;
+	margin-right:20px;
+	
+}
+.songs-info-wrapper h1
+{
+	padding-top: 10px;
+	font-size:25px;
+}
+.songs-info-wrapper h6
+{
+	margin-top: 0px;
+	font-size: 18px;
+	margin-bottom: 15px;
+
+}
+.songs-info-wrapper p
+{
+	margin-top: 0px;
+	font-size:18px;
+}
+
+
+.songs-text-info {
+	
+}
+
+.songs-list
+{
+	
+	padding-left: 26px;
+}
+#songs-list li{
+	border-color: #DCDCDC;
+	padding:0px;
+	margin:5px;
+	border-style: solid;
+	border-width: 1.5px;
+	font-family: Avenir, sans-serif;
+	color:black;
+}
+#linked_song
+{
+	color:black;
+}
+
+/* 
+	Player 
+			*/
+
+
+.back-button{
+	background-color: #D3D3D3;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	width:50px;
+	height:30px;
+	margin-left:4px;
+	margin-top: 4px;
+}
+.back-button .material-icons
+{
+	margin-top: 4px;
+	color:#9f5cc4;
+}
+.control-buttons{
+	margin-top:20px;
+	text-align: center;
+}
+
+#player-album-art
+{
+	padding-bottom: 0px;
+}
+#player-album-art img{
+	
+	height:220px;
+	width:240px;
+	
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	
+	
+}
+
+.player-song-info {
+	font-family: Avenir, sans-serif;
+	text-align: center;
+	margin-top: -10px;
+	
+	
+	
+}
+.player-song-info p{
+	color: #9f5cc4;
+	margin-top: -15px;
+	
+	}
+
+input[type="range"]{
+	margin-left: 30px;
+	width:240px;
+}
+#start{
+	display: inline-block;
+	float:left;
+	margin-left:30px;
+	margin-top: -3px;
+}
+#stop
+{
+	display: inline-block;
+	float:right;
+	margin-right:30px;
+	margin-top: -3px;
+}
+#player-song-name {
+	
+}
+
+.volume-bar {
+	
+}
+#volume-level{
+	
+	margin-left: 30px;
+}
+#volume-level i{
+	
+
+
+}
+#volume-level div {
+	display: inline-block;
+	height:6px;
+	width:24px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: black;
+	margin-left: 6px;
+	margin-bottom: 5px;
+	
+}
+.vol-down{
+	width:70px;
+	float:left;
+	margin-left: 20px;
+}
+.vol-up{
+	width:70px;
+	float:right;
+	margin-right: 20px;
+}
+.volume-rocker {
+	
+}
+
+.player-controls{
+	
+}
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}
